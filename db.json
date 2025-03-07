@@ -1,0 +1,25 @@
+{
+  "clientes": [
+    {
+      "nombre": "Genaro Paredes",
+      "email": "genaro@gmail.com",
+      "telefono": "3534222444",
+      "empresa": "Paredes Cereales",
+      "id": "5140"
+    },
+    {
+      "id": "8cec",
+      "nombre": "Juana",
+      "email": "Jporchietto@gmail.com",
+      "telefono": "3232323",
+      "empresa": "Cein"
+    },
+    {
+      "nombre": "Ricardo Paredes",
+      "email": "correo@correo.com",
+      "telefono": "323323",
+      "empresa": "Paredes Cereales",
+      "id": "ec33"
+    }
+  ]
+}
