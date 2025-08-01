@@ -1,4 +1,5 @@
-const url = 'http://localhost:4000/clientes';
+const url = 'https://688cfcebcd9d22dda5cf237b.mockapi.io/api/v1/clientes';
+//http://localhost:4000/clientes --> URL Json-Server
 
 //funcion para crear un nuevo cliente, lo llamamos desde el archivo nuevoCliente.js y le pasamos por parametro el cliente que ingresa el usuario
 export const nuevoCliente = async cliente => {

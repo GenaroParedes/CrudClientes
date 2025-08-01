@@ -42,6 +42,8 @@ import { obtenerClientes, eliminarCliente } from "./API.js";
             const confirmar = confirm('Deseas eliminar el cliente?');
             if (confirmar){
                 eliminarCliente(clienteID);
+                const filaCliente = document.querySelector(`[data-cliente="${clienteID}"]`).closest('tr');
+                filaCliente.remove();
             }
         }
     }
